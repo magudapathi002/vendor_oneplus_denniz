@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
     vendor/oneplus/denniz/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/oneplus/denniz/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
+    vendor/oneplus/denniz/proprietary/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk-ril.so \
     vendor/oneplus/denniz/proprietary/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
     vendor/oneplus/denniz/proprietary/lib64/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkavenhancements.so \
     vendor/oneplus/denniz/proprietary/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so \
@@ -51,5 +52,17 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 PRODUCT_PACKAGES += \
+    mediatek-common \
+    mediatek-framework-net \
+    mediatek-framework \
+    mediatek-gwsd \
+    mediatek-gwsdv2 \
+    mediatek-ims-base \
+    mediatek-ims-common \
     mediatek-ims-extension-plugin \
-    mediatek-ims-legacy
+    mediatek-ims-legacy \
+    mediatek-services \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common \
+    mediatek-wfo-legacy
